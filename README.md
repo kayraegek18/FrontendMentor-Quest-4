@@ -1,5 +1,5 @@
 # Frontend Mentor - Social links profile
 
-![Home](./home.png)
-![Active States](./active-states.png)
+![Home](./home1.png)
+![Active States](./active-states1.png)
 ![Mobile](./mobile.png)
