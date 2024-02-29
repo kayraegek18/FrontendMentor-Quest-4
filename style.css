@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: hsl(0, 0%, 8%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+
+    padding: 32px;
+
+    width: 350px;
+    min-height: 500px;
+    border-radius: 16px;
+
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+.card .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+
+    background-color: hsl(0, 0, 20%);
+}
+
+.card .card-title .title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .card-title .subtitle {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.card .card-subtitle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 100%;
+}
+
+.card .links .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.card .links .link:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
